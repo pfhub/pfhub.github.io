@@ -1,0 +1,52 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 28434d5f-3bcf-4382-a930-87e68253fb39
+  github: https://github.com/N-AAGN/pfhub.github.io
+
+site:
+  template: book-theme
+  title: PFHub 
+  parts:
+      footer: _static/footer.md
+  nav:
+    - title: Benchmarks
+      url: https://pfhub.github.io/pfhub-benchmarks/
+    - title: Recommended Practices
+      url: https://pages.nist.gov/pf-recommended-practices/intro.html
+    - title: About
+      children:
+        - title: Overview
+          url: /overview
+        - title: Get involved
+          url: /getinvolved
+        - title: Community
+          url: /community
+        - title: Code of Conduct
+          url: /codeofconduct
+        - title: Suggested Code
+          url: /suggestedcode
+    - title: Wiki Links
+      children:
+        - title: Home
+          url: https://github.com/usnistgov/pfhub/wiki
+        - title: Workshops
+          url: https://github.com/usnistgov/pfhub/wiki#Workshops
+        - title: Publications
+          url: https://github.com/usnistgov/pfhub/wiki#phase-field-benchmark--pfhub-publications
+        - title: Lectures
+          url: https://github.com/usnistgov/pfhub/wiki/Peter-Voorhees-Lectures
+        - title: Citing 
+          url: https://github.com/usnistgov/pfhub/wiki#citing-pfhub
+
+
+      
+  options:
+    logo_text: PFHub
+    logo: images/logo2.jpg
+    style: _static/custom.css
+    hide_toc: true
+    hide_outline: true
+    hide_search: true
+    theme_switcher: false
+    hide_footer_links: true
