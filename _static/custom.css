@@ -1,18 +1,3 @@
-h1 {
-    text-align: center;
-    font-size: 25px;
-}
-
-p {
-    font-size: 1.5em;
-}
-
-.highlight {
-    background-color: #317399;
-    padding: 0 5px;
-    color: #fff;
-}
-
 :root {
     color-scheme: light !important;
 }
@@ -20,4 +5,8 @@ p {
 body {
     background-color: #ffffff !important;
     color: #000000 !important;
+}
+
+button[title="Change theme"] {
+    display: none !important;
 }
