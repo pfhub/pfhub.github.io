@@ -17,4 +17,4 @@ site:
     hide_toc: true
     hide_outline: true
     hide_search: true
-    theme_switch: false
+    theme_switcher: false
