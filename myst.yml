@@ -10,7 +10,7 @@ site:
   title: PFHub
   nav:
     - title: Home
-      url: /Main-page
+      url: /
     - title: Benchmark 1
       url: /Benchmark1
   options:
