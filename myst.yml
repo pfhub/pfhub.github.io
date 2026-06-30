@@ -6,11 +6,8 @@ project:
   
 site:
   template: book-theme
-  root: Main-page
   title: PFHub
   nav:
-    - title: Home
-      url: /Main-page
     - title: Benchmark 1
       url: /Benchmark1
   options:

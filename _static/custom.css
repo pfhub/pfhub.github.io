@@ -1,16 +1,12 @@
 :root {
     color-scheme: light !important;
 }
-
-/* Hide theme toggle button */
-button[aria-label="Toggle dark mode"],
-button[title="Toggle dark mode"],
-button[aria-label="Change theme"] {
-    display: none !important;
+body{
+    font-size : 1rem;
 }
-
-/* Hide Made with MyST in top left */
-.navigation-logo-text,
-a[href="https://mystmd.org"] {
-    display: none !important;
+h1{
+    font-size : 4rem !important;
+}
+h2{
+    font-size : 3rem;
 }
