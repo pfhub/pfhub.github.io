@@ -13,6 +13,7 @@ site:
     - title: Benchmark 1
       url: /Benchmark1
   options:
+    logo_text: PFHub
     style: _static/custom.css
     hide_toc: true
     hide_outline: true
