@@ -6,7 +6,8 @@ body{
 }
 h1{
     font-size : 4rem !important;
+    font-weight : 400 !important;
 }
 h2{
-    font-size : 3rem;
+    font-size : 4rem !important;
 }
