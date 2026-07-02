@@ -2,14 +2,19 @@
 version: 1
 project:
   id: 28434d5f-3bcf-4382-a930-87e68253fb39
-  # title:
-  # description:
-  # keywords: []
-  # authors: []
   github: https://github.com/N-AAGN/pfhub.github.io
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  
 site:
   template: book-theme
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  title: PFHub
+  nav:
+    - title: Benchmark 1
+    url: /Benchmark1
+  options:
+    logo_text: PFHub
+    style: _static/custom.css
+    hide_toc: true
+    hide_outline: true
+    hide_search: true
+    theme_switcher: false
+    hide_footer_links: true
