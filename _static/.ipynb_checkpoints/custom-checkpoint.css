@@ -8,8 +8,8 @@ p{
 }
 
 article.content p {
-    max-width: 52.5% !important;
-    width: 52.5% !important;
+    max-width: 60% !important;
+    width: 60% !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -17,12 +17,12 @@ article.content p {
 h1{
     font-size : 3rem !important;
     font-weight : 700 !important;
-    text-align: left !important;
+    text-align: center !important;
     white-space: nowrap !important;
 }
 h2{
     font-size : 2rem !important;
-    text-align: left !important;
+    text-align: center !important;
 }
 
 /* Make content full width */
@@ -32,17 +32,19 @@ article.article-grid {
 
 /*margins for headings*/
 article.content h1 {
-    max-width: 52.5% !important;
-    width: 52.5% !important;
+    max-width: 50% !important;
+    width: 50% !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
 article.content h2 {
-    max-width: 52.5% !important;
-    width: 52.5% !important;
+    max-width: 50% !important;
+    width: 50% !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
+
 
 
 /*changes images after hovering*/
@@ -103,4 +105,10 @@ body {
 /*turns off theme button*/
 .myst-theme-button {
     display: none !important;
+}
+/*describes class for images of people in community page*/
+.person-card img {
+    width: 150px !important;
+    height: auto !important;
+    margin: 0 !important;
 }

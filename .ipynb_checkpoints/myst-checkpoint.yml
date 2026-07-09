@@ -11,29 +11,35 @@ site:
       footer: _static/footer.md
   nav:
     - title: Benchmarks
-      children:
-          - title: Benchmark 1 | Spinodal Decomposition
-            url: /benchmark1
-          - title: Benchmark 2
-            url: /benchmark2
-          - title: Benchmark 3
-            url: /benchmark3
-          - title: Benchmark 4
-            url: /benchmark4
-          - title: Benchmark 5
-            url: /benchmark5
-          - title: Benchmark 6
-            url: /benchmark6
-          - title: Benchmark 7
-            url: /benchmark7
-          - title: Benchmark 8
-            url: /benchmark8
-          - title: Benchmark Statistics
-            url: /benchstats
+      url: https://pfhub.github.io/pfhub-benchmarks/
     - title: Recommended Practices
-      url: /recomprac
-    - title: Wiki
-      url: /wiki
+      url: https://pages.nist.gov/pf-recommended-practices/intro.html
+    - title: About
+      children:
+        - title: Overview
+          url: /overview
+        - title: Get involved
+          url: /getinvolved
+        - title: Community
+          url: /community
+        - title: Code of Conduct
+          url: /codeofconduct
+        - title: Suggested Code
+          url: /suggestedcode
+    - title: Wiki Links
+      children:
+        - title: Home
+          url: https://github.com/usnistgov/pfhub/wiki
+        - title: Workshops
+          url: https://github.com/usnistgov/pfhub/wiki#Workshops
+        - title: Publications
+          url: https://github.com/usnistgov/pfhub/wiki#phase-field-benchmark--pfhub-publications
+        - title: Lectures
+          url: https://github.com/usnistgov/pfhub/wiki/Peter-Voorhees-Lectures
+        - title: Citing 
+          url: https://github.com/usnistgov/pfhub/wiki#citing-pfhub
+
+
       
   options:
     logo_text: PFHub
