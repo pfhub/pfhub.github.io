@@ -44,6 +44,7 @@ site:
   options:
     logo_text: PFHub
     logo: images/logo2.jpg
+    favicon: images/logo2.jpg
     style: _static/custom.css
     hide_toc: true
     hide_outline: true
