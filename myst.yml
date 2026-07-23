@@ -1,8 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 28434d5f-3bcf-4382-a930-87e68253fb39
-  github: https://github.com/N-AAGN/pfhub.github.io
+  github: pfhub/pfhub.github.io
 
 site:
   template: book-theme
