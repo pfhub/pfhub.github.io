@@ -2,3 +2,7 @@
 _build
 .ipynb_checkpoints/*
 */.ipynb_checkpoints/*
+
+# Raw workshop files (converted copies live in workshops/)
+CHiMaD Workshop Files/
+__pycache__/

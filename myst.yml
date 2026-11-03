@@ -2,6 +2,10 @@
 version: 1
 project:
   github: pfhub/pfhub.github.io
+  # developer docs: not site pages
+  exclude:
+    - README.md
+    - CLAUDE.md
 
 site:
   template: book-theme
@@ -13,6 +17,8 @@ site:
       url: https://pfhub.github.io/pfhub-benchmarks/
     - title: Recommended Practices
       url: https://pages.nist.gov/pf-recommended-practices/intro.html
+    - title: Past Workshops
+      url: /workshops
     - title: About
       children:
         - title: Overview

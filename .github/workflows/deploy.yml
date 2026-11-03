@@ -37,10 +37,16 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 18.x
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Install Python dependencies (kernel for executed pages)
+        run: pip install -r requirements.txt
       - name: Install Jupyter Book (via myst)
         run: npm install -g jupyter-book
       - name: Build HTML Assets
-        run: jupyter-book build --html
+        run: jupyter-book build --html --execute
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

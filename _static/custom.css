@@ -167,3 +167,166 @@ body {
     padding: 0 !important;
 }
 
+
+/* for the past workshops pages (rendered by workshops/wslib.py) */
+.ws-timeline {
+    position: relative !important;
+    max-width: 760px !important;
+    margin: 2rem auto !important;
+}
+.ws-timeline::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 84px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 3px !important;
+    background-color: #36492E !important;
+}
+.ws-item {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 20px !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+.ws-item::before {
+    content: "" !important;
+    position: absolute !important;
+    left: 77px !important;
+    top: 50% !important;
+    width: 11px !important;
+    height: 11px !important;
+    margin-top: -8px !important;
+    border-radius: 50% !important;
+    background-color: #36492E !important;
+    border: 3px solid #fff7E6 !important;
+    box-sizing: content-box !important;
+}
+.ws-year {
+    width: 64px !important;
+    flex-shrink: 0 !important;
+    text-align: right !important;
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    color: #36492E !important;
+}
+.ws-card {
+    flex: 1 !important;
+    min-width: 0 !important;
+    display: flex !important;
+    margin-left: 44px !important;
+    border: 2px solid #000 !important;
+    border-radius: 5px !important;
+    background-color: #ffffff !important;
+    overflow: hidden !important;
+}
+.ws-item:hover .ws-card {
+    border-color: #36492E !important;
+    box-shadow: 0 2px 8px rgba(54, 73, 46, 0.35) !important;
+}
+.ws-card .ws-thumb {
+    width: 140px !important;
+    height: 105px !important;
+    object-fit: cover !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+}
+.ws-placeholder {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #36492E !important;
+    color: #fff7E6 !important;
+    font-weight: 700 !important;
+    font-size: 1.6rem !important;
+}
+.ws-body {
+    padding: 8px 16px !important;
+    min-width: 0 !important;
+}
+article.content .ws-body p,
+article.content .ws-detail p {
+    width: auto !important;
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.ws-body p {
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+.ws-title {
+    font-weight: 700 !important;
+    font-size: 1.15rem !important;
+}
+.ws-meta {
+    color: #36492E !important;
+}
+.ws-badge {
+    display: inline-block !important;
+    margin-top: 4px !important;
+    padding: 1px 10px !important;
+    border: 1px solid #36492E !important;
+    border-radius: 999px !important;
+    font-size: 0.8rem !important;
+    color: #36492E !important;
+    text-transform: capitalize !important;
+}
+
+/* a single workshop page */
+.ws-detail {
+    max-width: 800px !important;
+    margin: 0 auto 2rem auto !important;
+    text-align: center !important;
+}
+.ws-nav {
+    display: flex !important;
+    justify-content: space-between !important;
+    margin-bottom: 1rem !important;
+}
+.ws-nav a {
+    color: #36492E !important;
+    font-weight: 700 !important;
+}
+.ws-photo {
+    margin: 1.5rem 0 !important;
+}
+.ws-photo img {
+    max-width: 100% !important;
+    height: auto !important;
+    border: 2px solid #000 !important;
+    border-radius: 5px !important;
+}
+article.content .ws-detail .ws-caption {
+    margin-top: 0.5rem !important;
+    font-style: italic !important;
+}
+article.content .ws-detail .ws-summary {
+    text-align: left !important;
+}
+
+@media (max-width: 640px) {
+    .ws-timeline::before,
+    .ws-item::before {
+        display: none !important;
+    }
+    .ws-item {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+    .ws-year {
+        width: auto !important;
+        text-align: left !important;
+        margin-bottom: 4px !important;
+    }
+    .ws-card {
+        margin-left: 0 !important;
+        flex-direction: column !important;
+    }
+    .ws-card .ws-thumb {
+        width: 100% !important;
+        height: 180px !important;
+    }
+}
