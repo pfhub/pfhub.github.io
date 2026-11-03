@@ -6,6 +6,7 @@ project:
   exclude:
     - README.md
     - CLAUDE.md
+    - future-plans.md
 
 site:
   template: book-theme
@@ -16,7 +17,7 @@ site:
     - title: Benchmarks
       url: https://pfhub.github.io/pfhub-benchmarks/
     - title: Recommended Practices
-      url: https://pages.nist.gov/pf-recommended-practices/intro.html
+      url: https://pfhub.github.io/pf-recommended-practices/
     - title: Past Workshops
       url: /workshops
     - title: About
