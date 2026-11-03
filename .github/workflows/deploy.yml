@@ -5,7 +5,8 @@ name: Jupyter Book (via myst) GitHub Pages Deploy
 on:
   push:
     # Runs on pushes targeting the default branch
-    branches: [main]
+    # TEMPORARY: workshop-showcase is here for testing; remove it before/when merging to main
+    branches: [main, workshop-showcase]
   # Allows running the workflow manually from the Actions tab
   workflow_dispatch:
 env:
