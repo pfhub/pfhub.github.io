@@ -166,7 +166,93 @@ body {
     margin: 0 !important;
     padding: 0 !important;
 }
+/* Make FAQ questions black */
+article.content h2,
+article.content h3 {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+/* Make all bold text black */
+strong,
+b {
+    color: #000000 !important;
+    -webkit-text-fill-color: #000000 !important;
+}
+/* Align bullet points with the paragraph text */
+article ul
+article ol {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+/* Keep list markers beside the text */
+article ul li,
+article ol li {
+    text-align: left;
+    list-style-position: inside;
+}
+/* Keep nested lists indented */
+article ul ul,
+article ol ol {
+    max-width: none;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 0;
+    padding-left: 20px;
+}
+/* Keep list text and markers together */
+article li > p {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+}
+/* Keep numbers and bullets beside the text */
+article ol,
+article ul {
+    list-style-position: outside;
+    padding-left: 30px;
+}
+/* Center the list container */
+article.content ol,
+article.content ul {
+    width: 60% !important;
+    max-width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 30px !important;
+    box-sizing: border-box;
+}
 
+/* Keep numbers and bullets next to paragraphs */
+article.content li > p {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: inline !important;
+    text-align: left !important;
+}
+
+/* Preserve indentation for nested lists */
+article.content li > ul,
+article.content li > ol {
+    width: auto !important;
+    max-width: none !important;
+    margin: 8px 0 !important;
+    padding-left: 30px !important;
+}
+/* Make numbered list numbers black */
+article.content ol li::marker {
+    color: #000000 !important;
+}
+/* Align FAQ headings with paragraphs */
+h3 {
+    transform: translateX(338px) !important;
+}
 
 /* for the past workshops pages (rendered by workshops/wslib.py) */
 .ws-timeline {

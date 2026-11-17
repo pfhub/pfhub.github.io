@@ -1,6 +1,8 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
+  execute:
+    enabled: true
   github: pfhub/pfhub.github.io
   # developer docs: not site pages
   exclude:
@@ -36,8 +38,6 @@ site:
       children:
         - title: Home
           url: https://github.com/usnistgov/pfhub/wiki
-        - title: Workshops
-          url: https://github.com/usnistgov/pfhub/wiki#Workshops
         - title: Publications
           url: https://github.com/usnistgov/pfhub/wiki#phase-field-benchmark--pfhub-publications
         - title: Lectures
